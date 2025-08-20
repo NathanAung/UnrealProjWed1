@@ -1,0 +1,58 @@
+[
+	{
+		"file": "C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\Source\\MyProject11\\MyProject11.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\.vscode\\compileCommands_MyProject11\\MyProject11.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\Source\\MyProject11\\MyProject11.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\.vscode\\compileCommands_MyProject11\\MyProject11.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\Source\\MyProject11\\MyProject11.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\.vscode\\compileCommands_MyProject11\\MyProject11.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\Source\\MyProject11\\RangePlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\.vscode\\compileCommands_MyProject11\\MyProject11.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\Source\\MyProject11\\RangePlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\.vscode\\compileCommands_MyProject11\\MyProject11.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\Source\\MyProject11\\TargetActor.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\.vscode\\compileCommands_MyProject11\\MyProject11.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\Source\\MyProject11\\TargetActor.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\student\\Documents\\Unreal Projects\\Unreal\\MyProject11\\.vscode\\compileCommands_MyProject11\\MyProject11.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.5\\Engine\\Source"
+	}
+]
