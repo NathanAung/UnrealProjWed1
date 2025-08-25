@@ -66,10 +66,25 @@ void ARangePlayerController::Shoot()
     {
         if (ATargetActor* Target = Cast<ATargetActor>(Hit.GetActor()))
         {
-            if (Target->bIsRed)
+            UNiagaraSystem* EffectToSpawn = Target->bIsRed ? Target->RedNiagaraEffect : Target->BlueNiagaraEffect;
+            if (EffectToSpawn)
+            {
+                UNiagaraFunctionLibrary::SpawnSystemAtLocation(
+                    GetWorld(),
+                    EffectToSpawn,
+                    Target->GetActorLocation(),
+                    FRotator::ZeroRotator,
+                    FVector(1.f) // scale
+                );
+            }
+
+            if (Target->bIsRed) {
                 Score += 10;
-            else
-                Score -= 5;
+            }
+            else {
+                Score = FMath::Max(0, Score - 5);
+            }
+                
 
             Target->Destroy();
 

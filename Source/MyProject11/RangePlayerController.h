@@ -4,6 +4,8 @@
 #include "GameFramework/PlayerController.h"
 #include "RangeHUDWidget.h"
 #include "Blueprint/UserWidget.h"
+#include "NiagaraFunctionLibrary.h"
+#include "NiagaraSystem.h"
 #include "RangePlayerController.generated.h"
 
 
@@ -20,7 +22,7 @@ public:
    TSubclassOf<URangeHUDWidget> HUDWidgetClass;
 
    UPROPERTY(EditAnywhere, BlueprintReadWrite)
-   float RemainingTime = 5.f;
+   float RemainingTime = 60.0f;
 
 protected:
    virtual void BeginPlay() override;
